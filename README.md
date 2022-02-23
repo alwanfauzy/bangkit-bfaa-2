@@ -1,4 +1,4 @@
-# Belajar Fundamental Aplikasi Android Dicoding Submission 1 - Aplikasi Github User
+# Belajar Fundamental Aplikasi Android Dicoding Submission 2 - Aplikasi Github User (Navigation dan API)
 
 :star: :star: :star: :star: :star: 
 <br />
