@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alwan.bangkitbfaa1">
+    package="com.alwan.bangkitbfaa2">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,14 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BangkitBFAA1">
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.alwan.bangkitbfaa2.ui.main.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.detail.UserDetailActivity"
-            android:parentActivityName=".ui.main.MainActivity"
+            android:name="com.alwan.bangkitbfaa2.ui.detail.UserDetailActivity"
+            android:parentActivityName="com.alwan.bangkitbfaa2.ui.main.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.SplashScreenActivity"
+            android:name="com.alwan.bangkitbfaa2.ui.SplashScreenActivity"
             android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>

@@ -6,4 +6,5 @@
     <color name="primary_dark">#303F9F</color>
     <color name="accent">#2EE7FF</color>
     <color name="accent_dark">#21A2B3</color>
+    <color name="bg_detail">#3F51B5</color>
 </resources>

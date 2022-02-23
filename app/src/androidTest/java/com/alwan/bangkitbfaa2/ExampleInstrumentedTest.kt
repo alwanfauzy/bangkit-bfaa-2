@@ -1,4 +1,4 @@
-package com.alwan.bangkitbfaa1
+package com.alwan.bangkitbfaa2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,11 +1,11 @@
-package com.alwan.bangkitbfaa1.ui.main
+package com.alwan.bangkitbfaa2.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.alwan.bangkitbfaa1.data.User
-import com.alwan.bangkitbfaa1.databinding.ItemUserBinding
-import com.alwan.bangkitbfaa1.util.loadImage
+import com.alwan.bangkitbfaa2.data.model.User
+import com.alwan.bangkitbfaa2.databinding.ItemUserBinding
+import com.alwan.bangkitbfaa2.util.loadImage
 
 class UserAdapter(private val callback: UserCallback) :
     RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
@@ -37,9 +37,9 @@ class UserAdapter(private val callback: UserCallback) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(user: User) {
             with(binding) {
-                imgDetailAvatar.loadImage(user.avatar)
-                tvName.text = user.name
-                tvUsername.text = user.username
+                imgDetailAvatar.loadImage(user.avatarUrl)
+                tvName.text = user.login
+                tvType.text = user.type
                 root.setOnClickListener { callback.onUserClick(user) }
             }
         }

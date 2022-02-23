@@ -1,4 +1,4 @@
-package com.alwan.bangkitbfaa1
+package com.alwan.bangkitbfaa2
 
 import org.junit.Test
 

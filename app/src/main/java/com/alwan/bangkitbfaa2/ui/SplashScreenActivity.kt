@@ -1,4 +1,4 @@
-package com.alwan.bangkitbfaa1.ui
+package com.alwan.bangkitbfaa2.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import com.alwan.bangkitbfaa1.databinding.ActivitySplashScreenBinding
-import com.alwan.bangkitbfaa1.ui.main.MainActivity
+import com.alwan.bangkitbfaa2.databinding.ActivitySplashScreenBinding
+import com.alwan.bangkitbfaa2.ui.main.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {

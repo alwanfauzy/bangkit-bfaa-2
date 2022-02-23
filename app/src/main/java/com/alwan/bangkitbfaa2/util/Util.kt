@@ -1,10 +1,10 @@
-package com.alwan.bangkitbfaa1.util
+package com.alwan.bangkitbfaa2.util
 
 import android.widget.ImageView
-import com.alwan.bangkitbfaa1.R
+import com.alwan.bangkitbfaa2.R
 import com.bumptech.glide.Glide
 
-fun ImageView.loadImage(url: Int?) {
+fun ImageView.loadImage(url: String?) {
     Glide.with(this.context)
         .load(url)
         .centerCrop()

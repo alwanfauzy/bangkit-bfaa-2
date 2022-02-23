@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
     android:orientation="horizontal"
     android:padding="16dp">
 
@@ -32,7 +33,7 @@
         tools:text="@string/app_name_user" />
 
     <TextView
-        android:id="@+id/tv_username"
+        android:id="@+id/tv_type"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -42,6 +43,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/img_detail_avatar"
         app:layout_constraintTop_toBottomOf="@+id/tv_name"
-        tools:text="@string/app_username" />
+        tools:text="@string/app_type" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
